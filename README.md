@@ -13,6 +13,7 @@ Vãi cả chường, chắc tôi thích nó còn hơn là HTML rồi, gõ nó bu
 
 app.set (set cho nó một cái something gì đó)
 app.get
-app.render
+app.render /// cái chỗ này tôi bị nhầm, thằng này không có render, mà là cái respone nó render cơ, nghĩa là sao nhỉ, cái get này nghĩa là bảo server trả về một cái response gì đó, và cái response này render ra cái được trả về, và render ra cái thằng đầu bòi pug đó, hay thật sự :V 
+
 app.send
 Woa, nhiều thật gê đó
