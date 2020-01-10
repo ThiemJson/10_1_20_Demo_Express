@@ -10,7 +10,9 @@ app.listen(port,()=>{
 });
 
 app.get('/',(request,response)=>{
-    response.send("Hellooooo somethhhing");
+    response.render("index",{
+        name:"nguyenCaoThiem"
+    });
 });
 
 app.get('/users',(request,response)=>{
