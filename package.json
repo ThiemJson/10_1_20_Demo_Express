@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ThiemJson/10_1_20_Demo_Express/issues"
   },
-  "homepage": "https://github.com/ThiemJson/10_1_20_Demo_Express#readme"
+  "homepage": "https://github.com/ThiemJson/10_1_20_Demo_Express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
