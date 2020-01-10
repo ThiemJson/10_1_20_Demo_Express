@@ -1,0 +1,19 @@
+{
+  "name": "10_1_20_demo_express",
+  "version": "1.0.0",
+  "description": "Something about Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiemJson/10_1_20_Demo_Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiemJson/10_1_20_Demo_Express/issues"
+  },
+  "homepage": "https://github.com/ThiemJson/10_1_20_Demo_Express#readme"
+}
