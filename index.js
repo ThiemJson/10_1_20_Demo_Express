@@ -14,7 +14,7 @@ app.get('/',(request,response)=>{
         name:"nguyenCaoThiem"
     });
 });
-
+app.get("/")
 app.get('/users',(request,response)=>{
     response.send("dasdasd");
 });
