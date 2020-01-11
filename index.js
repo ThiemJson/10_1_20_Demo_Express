@@ -19,11 +19,13 @@ app.listen(port,()=>{
 app.get('/users/search',(request,response)=>{
     let q = request.query.q;
     let matchedUsers = users.filter((user)=>{
-        return user.name.indexOf(q) !== -1;
+        return user.name.toLowerCase().indexOf(q.toLowerCase()) !== -1;
     })
     response.render("users/index.pug",{
         users: matchedUsers
     })
+    //let inputUsers = document.getElementById("input-users");
+    console.log(q);
 });
 
 app.get('/users',(request,response)=>{
