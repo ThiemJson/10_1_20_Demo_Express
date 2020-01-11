@@ -17,3 +17,8 @@ app.render /// cái chỗ này tôi bị nhầm, thằng này không có render,
 
 app.send
 Woa, nhiều thật gê đó
+
+
+
+# Hôm nay tôi học thêm một cái dể render ra một cái lish nào đo.s 
+Dùng query này, 

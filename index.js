@@ -7,17 +7,23 @@ app.set('view engine', 'pug');
 
 
 users = [
-    {id: 1, name: "Thiem"},
-    {id: 2, name: "Chou"},
-    {id: 3, name: "Thiem"},
-    {id: 1, name: "Thiem"},
+    {q: 1, name: "Thiem"},
+    {q: 1, name: "thiem"},
+    {q: 2, name: "nyChou"},
+    {q: 3, name: "nyThiem"},
 ]
 app.listen(port,()=>{
     console.log(`Server listen on port `+port);
 });
 
 app.get('/users/search',(request,response)=>{
-    console.log(request.query);
+    let q = request.query.q;
+    let matchedUsers = users.filter((user)=>{
+        return user.name.indexOf(q) !== -1;
+    })
+    response.render("users/index.pug",{
+        users: matchedUsers
+    })
 });
 
 app.get('/users',(request,response)=>{
