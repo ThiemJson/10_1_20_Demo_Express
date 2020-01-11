@@ -25,3 +25,5 @@ Dùng query này,
 hay phết, cái query đó là nó ở trong cái path mà người dung gõ vào url thôi
 
 Mình hiểu được và dung được cách search trên URl là như thế nào mỗi khi mình ấn một cái nút submit thì nó sẽ ra một cái củ lìn gì :)) )
+
+mình biết cách gửi một cái pposst vào server này, abcxyz đủ thứ

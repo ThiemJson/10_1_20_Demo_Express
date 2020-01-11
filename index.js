@@ -43,5 +43,6 @@ app.get('/users',(request,response)=>{
 
 
 app.post(`/users/create`,(req,res)=>{
-    console.log(req.body);
+    users.push(req.body);
+    res.redirect("/users");
 })
