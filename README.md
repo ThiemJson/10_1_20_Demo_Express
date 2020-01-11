@@ -22,3 +22,4 @@ Woa, nhiều thật gê đó
 
 # Hôm nay tôi học thêm một cái dể render ra một cái lish nào đo.s 
 Dùng query này, 
+hay phết, cái query đó là nó ở trong cái path mà người dung gõ vào url thôi
