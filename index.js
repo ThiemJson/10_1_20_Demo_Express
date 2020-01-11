@@ -9,12 +9,13 @@ app.listen(port,()=>{
     console.log(`Server listen on port `+port);
 });
 
-app.get('/',(request,response)=>{
-    response.render("index",{
-        name:"nguyenCaoThiem"
-    });
-});
-app.get("/")
 app.get('/users',(request,response)=>{
-    response.send("dasdasd");
+    response.render("users/index.pug",{
+        users:[
+            {id: 1, name: "Thiem"},
+            {id: 2, name: "Chou"},
+            {id: 3, name: "Thiem"},
+            {id: 1, name: "Thiem"},
+        ]
+    });
 });
